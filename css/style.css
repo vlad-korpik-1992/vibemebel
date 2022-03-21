@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Golos Text';
+    src: url('Golostextregular.woff2') format('woff2'), 
+         url('Golostextregular.woff') format('woff'), 
+         url('Golostextregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Golos Text';
+    src: url('Golostextmedium.woff2') format('woff2'), 
+         url('Golostextmedium.woff') format('woff'), 
+         url('Golostextmedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Golos Text';
+    src: url('Golostextdemibold.woff2') format('woff2'), 
+         url('Golostextdemibold.woff') format('woff'), 
+         url('Golostextdemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Golos Text';
+    src: url('Golostextbold.woff2') format('woff2'), 
+         url('Golostextbold.woff') format('woff'), 
+         url('Golostextbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Golos Text';
+    src: url('Golostextblack.woff2') format('woff2'), 
+         url('Golostextblack.woff') format('woff'), 
+         url('Golostextblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+*,*::before,*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul, ol, li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html, body{
+    height: 100%;
+    line-height: 1;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+	line-height: 24px;
+    color: #000;
+}
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+}
+@media (max-width: 1200px){
+    .wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
