@@ -452,6 +452,7 @@ section{
     margin-bottom: 22px;
 }
 .catalog__title{
+    display: block;
     padding-bottom: 5px;
     font-size: 16px;
     line-height: 18px;
@@ -624,4 +625,104 @@ section{
 .footer__address{
     font-size: 18px;
     line-height: 24px; 
+}
+.breadcrumbs{
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+.breadcrumbs__list{
+    display: flex;
+}
+.breadcrumbs__list__items{
+    display: flex;
+    align-items: center;
+    padding-right: 35px;
+}
+.breadcrumbs__list__items:last-child{
+    padding-right: 0;
+}
+.breadcrumbs__list__items:after{
+    content: "•";
+    width: 10px;
+    height: 10px;
+    font-size: 29px;
+    line-height: 75%;
+    text-align: center;
+    margin-bottom: 10px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.breadcrumbs__list__items:last-child:after{
+    content: "";
+}
+.breadcrumbs__list__link{
+    font-size: 18px;
+    line-height: 75%;
+    color: #000;
+    padding-right: 35px;
+    transition: 0.3 all;
+}
+.info{
+    padding: 50px 0;
+    background-color: #f0f0f0;
+    margin-bottom: 50px;
+}
+.info__box{
+    display: flex;
+    align-items: center;
+}
+.info__box__icon{
+    display: flex;
+    content: "";
+    flex: 0 0 190px;
+    max-width: 190px;
+    height: 190px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.info__box__text{
+    padding-left: 25px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.info__box__text p{
+    padding-bottom: 33px;
+}
+.info__box__text p:last-child{
+    padding-bottom: 0;
+}
+.catalog__plan{
+    position: absolute;
+    right: 11px;
+    top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    width: 179px;
+    max-width: 179px;
+    height: 30px;
+}
+.catalog__plan__title{
+    font-size: 14px;
+    line-height: 24px;
+}
+.catalog_border{
+    margin-bottom: 50px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.pagination__list{
+    display: flex;
+}
+.pagination__list__items{
+    padding-right: 23px;
+}
+.pagination__list__items:last-child{
+    padding-right: 0;
+}
+.pagination__list__items__link{
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000;
 }
