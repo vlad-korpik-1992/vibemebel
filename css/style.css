@@ -74,7 +74,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
-	line-height: 24px;
+    line-height: 24px;
     color: #000;
 }
 section{
@@ -205,7 +205,7 @@ section{
 .hero__bottom{
     position: absolute;
     bottom: -25px;
-    right: 50px;
+    right: 15px;
 }
 .hero__link{
     display: flex;
@@ -263,10 +263,10 @@ section{
     height: 40px;
     clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 0 50%, 0% 0%);
     display: flex;
-    justify-content: center;
     align-items: center;
     color: #000;
     line-height: 18px;
+    padding: 0 22px 0 10px;
 }
 .category__box{
     display: flex;
@@ -307,8 +307,8 @@ section{
     justify-content: center;
     align-items: center;
     border: 3px solid #000;
-    padding: 50px 0 45px 0;
-    margin-bottom: 49px;
+    padding: 50px 0px;
+    margin-bottom: 50px;
 }
 .category__application__title{
     font-size: 28px;
@@ -367,7 +367,7 @@ section{
 }
 .topweek{
     background-color: #f0f0f0;
-    padding: 98px 0 99px 0;
+    padding: 100px 0;
     margin-bottom: 100px;
 }
 .topweek__img{
@@ -532,6 +532,9 @@ section{
     border: 1px solid #d6d6d6;
     padding: 20px 0 0 20px;
     margin-bottom: 22px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 16px;
     line-height: 18px;
     color: #d6d6d6;
@@ -704,13 +707,15 @@ section{
     justify-content: space-around;
     align-items: center;
     background-color: #ffffff;
-    width: 179px;
-    max-width: 179px;
+    width: fit-content;
     height: 30px;
+    padding: 0 10px;
 }
 .catalog__plan__title{
     font-size: 14px;
     line-height: 24px;
+    padding-left: 5px;
+    color: #000;
 }
 .catalog_border{
     margin-bottom: 50px;
@@ -776,7 +781,6 @@ section{
     font-size: 24px;
     line-height: 31px;
     color: #000;
-    text-decoration: underline;
     transition: 0.3s all;
 }
 .sale__box{
@@ -809,13 +813,12 @@ section{
 }
 .sale__box__status{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color: #f0f0f0;
     margin-top: 13px;
-    width: 134px;
-    max-width: 134px;
+    width: fit-content;
     height: 40px;
+    padding: 0 10px;
 }
 .sale__box__title{
     display: block;
@@ -910,9 +913,9 @@ p.about__profession{
     height: 675px;
 }
 .about__content p{
-    font-size: 24px;
-    line-height: 36px;
-    padding-bottom: 55px;
+    font-size: 20px;
+    line-height: 160%;
+    padding-bottom: 30px;
 }
 .about__content p:last-child{
     padding-bottom: 0;
@@ -941,8 +944,8 @@ p.about__profession{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 160%;
 }
 .bgimg{
     padding-top: 871px;
@@ -998,7 +1001,7 @@ p.about__profession{
 }
 .cart__content{
     padding-bottom: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     border-bottom: 1px solid #f0f0f0;
 }
 .cart__content_bottom{
@@ -1067,14 +1070,15 @@ p.about__profession{
     justify-content: space-around;
     align-items: center;
     background-color: #f0f0f0;
-    width: 100%;
-    max-width: 179px;
+    width: fit-content;
     height: 40px;
+    padding: 0 20px;
     margin-bottom: 8px;
 }
 .cart__content__plan__title{
     font-size: 14px;
     line-height: 24px;
+    padding-left: 5px;
 }
 .cart__content__box{
     display: flex;
